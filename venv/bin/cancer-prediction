@@ -1,0 +1,6 @@
+#!/workspaces/packaging-publishing-fs521/venv/bin/python
+import sys
+from cancer_prediction.cli import app
+
+if __name__ == '__main__':
+    sys.exit(app())
